@@ -66,7 +66,7 @@ let shopItemsData = [
     id: "rfoijpwq",
     name: "Plazzo Suit",
     price: 200,
-    desc: "Lorem ipsum dolor sit amet.Lorem ipsum.",
+    desc: "Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.",
     img: "Images/Img-10.jpg",
   },
   {

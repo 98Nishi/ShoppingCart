@@ -27,8 +27,8 @@ a {
   align-items: center;
   color: #ffffff;
   background-color: #2b2828;
-  padding: 35px 60px;
-  margin-bottom: 60px;
+  padding: 20px 60px;
+  margin-bottom: 20px;
 }
 h1 {
   font-size: 40px;
@@ -60,7 +60,7 @@ h1 {
 
 .shop {
   display: grid;
-  grid-template-columns: repeat(3, 350px);
+  grid-template-columns: repeat(4, 250px);
   gap: 50px;
   justify-content: center;
 }
