@@ -11,11 +11,12 @@ calculation();
 
 let generateCartItems = () => {
   if (basket.length !== 0) {
-    return (ShoppingCart.innerHTML = basket.map((x)=>{
-      let {id, item} = x;
-      let search = shopItemsData.find((y)=>y.id === id) || [];
-      let {img,name,price} = search
-      return `
+    return (ShoppingCart.innerHTML = basket
+      .map((x) => {
+        let { id, item } = x;
+        let search = shopItemsData.find((y) => y.id === id) || [];
+        let { img, name, price } = search;
+        return `
       <div class="cart-item">
       <img width="100" src=${img} alt=""/>
 
@@ -41,8 +42,8 @@ let generateCartItems = () => {
       </div>
       
       `;
-    }).join(""))
-
+      })
+      .join(""));
   } else {
     ShoppingCart.innerHTML = ``;
     label.innerHTML = `
@@ -95,21 +96,21 @@ let update = (id) => {
   TotalAmount();
 };
 
-let removeItem = (id)=>{
+let removeItem = (id) => {
   let selectedItem = id;
-  basket = basket.filter((x)=>x.id !== selectedItem.id);
+  basket = basket.filter((x) => x.id !== selectedItem.id);
   generateCartItems();
   TotalAmount();
   calculation();
   localStorage.setItem("data", JSON.stringify(basket));
-}
+};
 
-let clearCart =()=>{
+let clearCart = () => {
   basket = [];
   generateCartItems();
   calculation();
   localStorage.setItem("data", JSON.stringify(basket));
-}
+};
 
 let TotalAmount = () => {
   if (basket.length !== 0) {
