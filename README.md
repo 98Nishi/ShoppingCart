@@ -24,7 +24,7 @@ Welcome to our Clothing Store Website! This web application allows users to brow
 
 ## Technologies Used
 
-- HTML, CSS, and JavaScript for front-end development.
+- HTML, CSS, and JavaScript 
 
 ## Contributing
 
@@ -35,7 +35,3 @@ We welcome contributions to improve the website or fix any issues. If you would 
 3. Make changes and commit them.
 4. Push the changes to your forked repository.
 5. Submit a pull request to the main repository.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
