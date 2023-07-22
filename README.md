@@ -5,7 +5,7 @@ Shopping Cart is a user-friendly website that allows shoppers to easily browse, 
 # Shopping Cart Website
 
 Welcome to our Clothing Store Website! This web application allows users to browse through a selection of clothing items and add them to their cart for purchase.
-
+![Project](shop.png)
 ## Features
 
 - View a wide range of clothing items on the homepage.
